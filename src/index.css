@@ -155,3 +155,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Dot-grid texture for the dashboard canvas */
+.grid-dots {
+  background-image: radial-gradient(oklch(0.30 0.015 240) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
